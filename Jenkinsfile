@@ -16,4 +16,4 @@ node('master') {
        
     sh 'scp /home/ubuntu/.jenkins/workspace/scripted-pipeline/webapp/target/webapp.war ubuntu@172.31.44.10:/var/lib/tomcat9/webapps/prodapp.war'    
     }
-}
+} 
